@@ -1,4 +1,28 @@
+
 .leaflet-container {
   width: 100vw;
-  height: 100vh;
+  height: 70vh;
+}
+.container {
+  align-items: center;
+  width: auto;
+}
+.input {
+  display: inline;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  flex-direction: column;
+  border: 1.5px solid black;
+}
+.inputLatitude {
+  margin-left: 3px;
+
+}
+
+.button {
+  display: inline;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  background-color: #1c88bf;
+  color: white;
 }
